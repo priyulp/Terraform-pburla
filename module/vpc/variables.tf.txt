@@ -1,2 +1,9 @@
-variable "vpc_name" {}
-variable "subnet_name" {}
+variable "vpc_name" {
+  description = "Name of the VPC"
+  type        = string
+}
+
+variable "subnet_name" {
+  description = "Name of the subnet"
+  type        = string
+}
