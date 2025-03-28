@@ -14,3 +14,8 @@ module "storage" {
   source      = "./modules/storage"
   bucket_name = var.bucket_name
 }
+variable "project_id" {
+  default     = "copper-cider-453013-b7"
+  description = "GCP Project ID"
+  type        = string
+}
